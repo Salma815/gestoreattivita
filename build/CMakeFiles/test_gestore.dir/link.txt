@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_gestore.dir/tests/test_gestore_attivita.cpp.o CMakeFiles/test_gestore.dir/src/Attivita.cpp.o CMakeFiles/test_gestore.dir/src/GestoreAttivita.cpp.o -o test_gestore  /usr/lib/x86_64-linux-gnu/libgtest_main.a -lpthread /usr/lib/x86_64-linux-gnu/libgtest.a 

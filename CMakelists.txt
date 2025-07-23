@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.10)
+project(GestoreAttivita)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(src)
+
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
+set(SOURCES
+    src/Attivita.cpp
+    src/GestoreAttivita.cpp
+)
+
+add_executable(test_attivita tests/test_attivita.cpp ${SOURCES})
+target_link_libraries(test_attivita GTest::gtest_main pthread)
+
+add_executable(test_gestore tests/test_gestore_attivita.cpp ${SOURCES})
+target_link_libraries(test_gestore GTest::gtest_main pthread)
+add_executable(gestore src/main.cpp src/Attivita.cpp src/GestoreAttivita.cpp)
+target_link_libraries(gestore pthread)
+
+

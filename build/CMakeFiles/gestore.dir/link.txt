@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/gestore.dir/src/main.cpp.o CMakeFiles/gestore.dir/src/Attivita.cpp.o CMakeFiles/gestore.dir/src/GestoreAttivita.cpp.o -o gestore  -lpthread 

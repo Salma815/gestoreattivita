@@ -1,0 +1,5 @@
+/mnt/c/Users/ABDELILAH/Desktop/gestoreattivita-main/build/CMakeFiles/test_attivita.dir
+/mnt/c/Users/ABDELILAH/Desktop/gestoreattivita-main/build/CMakeFiles/test_gestore.dir
+/mnt/c/Users/ABDELILAH/Desktop/gestoreattivita-main/build/CMakeFiles/gestore.dir
+/mnt/c/Users/ABDELILAH/Desktop/gestoreattivita-main/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ABDELILAH/Desktop/gestoreattivita-main/build/CMakeFiles/rebuild_cache.dir
