@@ -8,12 +8,12 @@ int main() {
 
     do {
         std::cout << "\n🎯 --- Gestore Attività --- 🎯\n\n";
-        std::cout << "1️⃣  Aggiungi attività\n";
-        std::cout << "📋  Visualizza tutte le attività\n";
-        std::cout << "✅  Segna attività come terminata\n";
-        std::cout << "🗑️  Rimuovi attività\n";
-        std::cout << "📊  Visualizza statistiche\n";
-        std::cout << "🚪  Esci\n";
+        std::cout << "1️⃣ 1 Aggiungi attività\n";
+        std::cout << "📋  2 Visualizza tutte le attività\n";
+        std::cout << "✅  3 Segna attività come terminata\n";
+        std::cout << "🗑️  4 Rimuovi attività\n";
+        std::cout << "📊  5 Visualizza statistiche\n";
+        std::cout << "🚪  0 Esci\n";
         std::cout << "Scegli un'opzione: ";
 
         std::cin >> scelta;
